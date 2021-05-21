@@ -1,0 +1,33 @@
+###to clone code use:
+
+1) create a folder 
+2) open folder in vs code 
+3) run git clone {repository URL} on terminal
+
+###if u have to puch code on existing repo:
+
+if you face any issue while deploying on github go in the folders--> views --> click on hidden folders and delete .git file
+1) git init
+2) git add .
+3) git status
+4) git commit -m "commit name"
+5) git remote add origin "repo url"
+   if this error comes fatal: remote origin already exists.
+      use--> git remote rm origin
+      then use 5 command again
+6) git push origin master    or     git push origin master --force
+
+###if u have to puch code on new repo:
+
+1) git init
+2) git origin.... whole this give on new repo page(better write it to avoid error)
+3) git add .
+4) git status
+5) git commit -m "commit name"
+6) git push origin master
+
+###how to push code on heroku
+
+1) heroku login
+2) heroku create "domain name"
+3) git puch origin master
