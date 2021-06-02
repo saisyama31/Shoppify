@@ -11,7 +11,7 @@ if you face any issue while deploying on github go in the folders--> views --> c
 2) git add .
 3) git status
 4) git commit -m "commit name"
-5) git remote add origin "repo url"
+5) git remote add origin <<repo url>>
    if this error comes fatal: remote origin already exists.
       use--> git remote rm origin
       then use 5 command again
@@ -29,5 +29,5 @@ if you face any issue while deploying on github go in the folders--> views --> c
 ###how to push code on heroku
 
 1) heroku login
-2) heroku create "domain name"
-3) git puch origin master
+2) heroku create <<domain name>>
+3) git push heroku master
